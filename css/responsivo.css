@@ -1,11 +1,25 @@
 
 @media screen and (max-width: 1000px) {
     header {
-        display: grid;
+        flex-direction: column; /* Empilha logo e busca */
+        justify-content: center;
+        text-align: center;
+        gap: 15px; /* Espaçamento entre logo e barra de busca */
+    }
+
+    h1 {
+        font-size: 26px;
     }
 
     .container-busca {
-        max-width: 250px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container-busca input {
+        width: 80%;
+        max-width: 180px;
     }
 
     .container-categorias nav {
