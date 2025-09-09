@@ -40,4 +40,8 @@
     .container-categorias .botao-categorias {
         scroll-snap-align: start; /* cada botão “encaixa” ao parar */
     }
+
+    footer {
+        font-size: 13px;
+    }
 }

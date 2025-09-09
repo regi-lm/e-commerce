@@ -121,13 +121,6 @@ h1 {
     padding: 48px 32px;
 }
 
-footer {
-    background-color: var(--secondary-color);
-    color: var(--white-color);
-    text-align: center;
-    padding: 32px;
-}
-
 .produtos {
     width: 100%;
     max-width: 1200px;
@@ -200,4 +193,12 @@ footer {
 .botao-produto:hover {
     background-color: var(--light-blue);
     color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    text-align: center;
+    font-size: 15px;
+    padding: 32px;
 }
