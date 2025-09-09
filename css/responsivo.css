@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 1000px) {
+    header {
+        display: grid;
+    }
+
+    .container-busca {
+        max-width: 250px;
+    }
+
+    .container-categorias nav {
+        gap: 12px;
+        flex-wrap: nowrap;          /* impede quebra de linha */
+        overflow-x: auto;           /* ativa o scroll horizontal */
+        -webkit-overflow-scrolling: touch; /* rolagem suave em mobile */
+        justify-content: flex-start;
+
+        scroll-snap-type: x mandatory; /* snap no eixo X */
+        scroll-padding: 12px; /* espaço pro primeiro botão não colar na borda */
+    }
+
+    .container-categorias nav::-webkit-scrollbar {
+        display: none; /* opcional: esconder a barra de rolagem */
+    }
+
+    .container-categorias .botao-categorias {
+        scroll-snap-align: start; /* cada botão “encaixa” ao parar */
+    }
+}
